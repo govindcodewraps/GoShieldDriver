@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "745324554255",
+    "project_id": "go-shield-driver",
+    "storage_bucket": "go-shield-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745324554255:android:e5548fdd3484c366675b7a",
+        "android_client_info": {
+          "package_name": "com.goshield.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaQlizV6W_YqZ-xbgRJ2CRHCDmozkLf_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
