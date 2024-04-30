@@ -3,12 +3,12 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:cabme_driver/controller/dash_board_controller.dart';
-import 'package:cabme_driver/controller/settings_controller.dart';
-import 'package:cabme_driver/on_boarding_screen.dart';
-import 'package:cabme_driver/page/auth_screens/login_screen.dart';
-import 'package:cabme_driver/page/dash_board.dart';
-import 'package:cabme_driver/service/api.dart';
+import 'package:goshield_driver/controller/dash_board_controller.dart';
+import 'package:goshield_driver/controller/settings_controller.dart';
+import 'package:goshield_driver/on_boarding_screen.dart';
+import 'package:goshield_driver/page/auth_screens/login_screen.dart';
+import 'package:goshield_driver/page/dash_board.dart';
+import 'package:goshield_driver/service/api.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
@@ -36,12 +36,17 @@ void main() async {
   await Preferences.initPref();
 
   await Firebase.initializeApp();
+
+
+
+  //comment when u build for android
+//for ios start
+  if (Platform.isIOS) {
   await FirebaseMessaging.instance.setForegroundNotificationPresentationOptions(
     alert: true,
     badge: true,
     sound: true,
   );
-
   var request = await FirebaseMessaging.instance.requestPermission(
     alert: true,
     announcement: false,
@@ -51,6 +56,10 @@ void main() async {
     provisional: false,
     sound: true,
   );
+  }
+  //for ios end
+
+
 
   if (!Platform.isIOS) {
     FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);

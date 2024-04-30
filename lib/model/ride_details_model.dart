@@ -1,5 +1,5 @@
-import 'package:cabme_driver/model/ride_model.dart';
-import 'package:cabme_driver/model/tax_model.dart';
+import 'package:goshield_driver/model/ride_model.dart';
+import 'package:goshield_driver/model/tax_model.dart';
 
 class RideDetailsModel {
   String? success;

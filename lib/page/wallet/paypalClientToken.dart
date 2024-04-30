@@ -2,9 +2,9 @@
 
 import 'dart:convert';
 
-import 'package:cabme_driver/model/payment_setting_model.dart';
-import 'package:cabme_driver/model/paypalClientToken_model.dart';
-import 'package:cabme_driver/service/api.dart';
+import 'package:goshield_driver/model/payment_setting_model.dart';
+import 'package:goshield_driver/model/paypalClientToken_model.dart';
+import 'package:goshield_driver/service/api.dart';
 import 'package:http/http.dart' as http;
 
 import '../../utils/Preferences.dart';

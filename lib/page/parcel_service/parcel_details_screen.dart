@@ -1,8 +1,8 @@
-import 'package:cabme_driver/constant/constant.dart';
-import 'package:cabme_driver/controller/parcel_payment_controller.dart';
-import 'package:cabme_driver/model/tax_model.dart';
-import 'package:cabme_driver/page/chats_screen/FullScreenImageViewer.dart';
-import 'package:cabme_driver/themes/constant_colors.dart';
+import 'package:goshield_driver/constant/constant.dart';
+import 'package:goshield_driver/controller/parcel_payment_controller.dart';
+import 'package:goshield_driver/model/tax_model.dart';
+import 'package:goshield_driver/page/chats_screen/FullScreenImageViewer.dart';
+import 'package:goshield_driver/themes/constant_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

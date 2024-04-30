@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:cabme_driver/utils/Preferences.dart';
+import 'package:goshield_driver/utils/Preferences.dart';
 
 class API {
   //https://cab.goshieldapp.com/admin/

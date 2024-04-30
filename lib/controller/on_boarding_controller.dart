@@ -1,4 +1,4 @@
-import 'package:cabme_driver/model/onboarding_model.dart';
+import 'package:goshield_driver/model/onboarding_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

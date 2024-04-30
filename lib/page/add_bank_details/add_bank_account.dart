@@ -1,11 +1,11 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:cabme_driver/constant/constant.dart';
-import 'package:cabme_driver/constant/show_toast_dialog.dart';
-import 'package:cabme_driver/controller/bank_details_controller.dart';
-import 'package:cabme_driver/themes/button_them.dart';
-import 'package:cabme_driver/themes/constant_colors.dart';
-import 'package:cabme_driver/utils/Preferences.dart';
+import 'package:goshield_driver/constant/constant.dart';
+import 'package:goshield_driver/constant/show_toast_dialog.dart';
+import 'package:goshield_driver/controller/bank_details_controller.dart';
+import 'package:goshield_driver/themes/button_them.dart';
+import 'package:goshield_driver/themes/constant_colors.dart';
+import 'package:goshield_driver/utils/Preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

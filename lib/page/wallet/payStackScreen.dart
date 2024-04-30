@@ -2,8 +2,8 @@
 
 import 'dart:async';
 
-import 'package:cabme_driver/controller/wallet_controller.dart';
-import 'package:cabme_driver/themes/constant_colors.dart';
+import 'package:goshield_driver/controller/wallet_controller.dart';
+import 'package:goshield_driver/themes/constant_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:webview_flutter/webview_flutter.dart';

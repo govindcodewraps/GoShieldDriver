@@ -1,9 +1,9 @@
-import 'package:cabme_driver/constant/constant.dart';
-import 'package:cabme_driver/controller/payment_controller.dart';
-import 'package:cabme_driver/model/tax_model.dart';
-import 'package:cabme_driver/page/chats_screen/conversation_screen.dart';
-import 'package:cabme_driver/themes/constant_colors.dart';
-import 'package:cabme_driver/widget/StarRating.dart';
+import 'package:goshield_driver/constant/constant.dart';
+import 'package:goshield_driver/controller/payment_controller.dart';
+import 'package:goshield_driver/model/tax_model.dart';
+import 'package:goshield_driver/page/chats_screen/conversation_screen.dart';
+import 'package:goshield_driver/themes/constant_colors.dart';
+import 'package:goshield_driver/widget/StarRating.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

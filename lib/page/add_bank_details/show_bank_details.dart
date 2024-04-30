@@ -1,8 +1,8 @@
-import 'package:cabme_driver/constant/constant.dart';
-import 'package:cabme_driver/controller/bank_details_controller.dart';
-import 'package:cabme_driver/page/add_bank_details/add_bank_account.dart';
-import 'package:cabme_driver/themes/button_them.dart';
-import 'package:cabme_driver/themes/constant_colors.dart';
+import 'package:goshield_driver/constant/constant.dart';
+import 'package:goshield_driver/controller/bank_details_controller.dart';
+import 'package:goshield_driver/page/add_bank_details/add_bank_account.dart';
+import 'package:goshield_driver/themes/button_them.dart';
+import 'package:goshield_driver/themes/constant_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

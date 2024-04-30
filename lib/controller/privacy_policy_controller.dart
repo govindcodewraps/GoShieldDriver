@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:cabme_driver/constant/show_toast_dialog.dart';
-import 'package:cabme_driver/service/api.dart';
+import 'package:goshield_driver/constant/show_toast_dialog.dart';
+import 'package:goshield_driver/service/api.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:http/http.dart' as http;
 
@@ -21,6 +21,8 @@ class PrivacyPolicyController extends GetxController {
     try {
       ShowToastDialog.showLoader("Please wait");
       final response = await http.get(
+       // Uri.parse(API.privacyPolicy),
+
         Uri.parse(API.privacyPolicy),
         headers: API.header,
       );

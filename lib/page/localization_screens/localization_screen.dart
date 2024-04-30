@@ -1,9 +1,9 @@
-import 'package:cabme_driver/constant/show_toast_dialog.dart';
-import 'package:cabme_driver/controller/localization_controller.dart';
-import 'package:cabme_driver/on_boarding_screen.dart';
-import 'package:cabme_driver/service/localization_service.dart';
-import 'package:cabme_driver/themes/constant_colors.dart';
-import 'package:cabme_driver/utils/Preferences.dart';
+import 'package:goshield_driver/constant/show_toast_dialog.dart';
+import 'package:goshield_driver/controller/localization_controller.dart';
+import 'package:goshield_driver/on_boarding_screen.dart';
+import 'package:goshield_driver/service/localization_service.dart';
+import 'package:goshield_driver/themes/constant_colors.dart';
+import 'package:goshield_driver/utils/Preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

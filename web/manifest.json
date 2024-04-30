@@ -1,6 +1,6 @@
 {
-  "name": "cabme_driver",
-  "short_name": "cabme_driver",
+  "name": "goshield_driver",
+  "short_name": "goshield_driver",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0175C2",

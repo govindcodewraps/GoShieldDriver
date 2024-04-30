@@ -2,7 +2,7 @@
 
 import 'dart:developer';
 
-import 'package:cabme_driver/model/payment_setting_model.dart';
+import 'package:goshield_driver/model/payment_setting_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';

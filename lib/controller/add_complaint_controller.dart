@@ -2,10 +2,10 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:cabme_driver/constant/show_toast_dialog.dart';
-import 'package:cabme_driver/model/parcel_model.dart';
-import 'package:cabme_driver/model/ride_model.dart';
-import 'package:cabme_driver/service/api.dart';
+import 'package:goshield_driver/constant/show_toast_dialog.dart';
+import 'package:goshield_driver/model/parcel_model.dart';
+import 'package:goshield_driver/model/ride_model.dart';
+import 'package:goshield_driver/service/api.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;

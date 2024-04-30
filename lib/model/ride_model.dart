@@ -1,4 +1,4 @@
-import 'package:cabme_driver/model/tax_model.dart';
+import 'package:goshield_driver/model/tax_model.dart';
 
 class RideModel {
   String? success;

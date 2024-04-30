@@ -1,11 +1,11 @@
-import 'package:cabme_driver/lang/app_de.dart';
-import 'package:cabme_driver/lang/app_en.dart';
-import 'package:cabme_driver/lang/app_fr.dart';
-import 'package:cabme_driver/lang/app_hi.dart';
-import 'package:cabme_driver/lang/app_ja.dart';
-import 'package:cabme_driver/lang/app_pt.dart';
-import 'package:cabme_driver/lang/app_ru.dart';
-import 'package:cabme_driver/lang/app_zh.dart';
+import 'package:goshield_driver/lang/app_de.dart';
+import 'package:goshield_driver/lang/app_en.dart';
+import 'package:goshield_driver/lang/app_fr.dart';
+import 'package:goshield_driver/lang/app_hi.dart';
+import 'package:goshield_driver/lang/app_ja.dart';
+import 'package:goshield_driver/lang/app_pt.dart';
+import 'package:goshield_driver/lang/app_ru.dart';
+import 'package:goshield_driver/lang/app_zh.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

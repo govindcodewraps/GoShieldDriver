@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:cabme_driver/model/payment_setting_model.dart';
+import 'package:goshield_driver/model/payment_setting_model.dart';
 import 'package:http/http.dart' as http;
 
 class PayStackURLGen {

@@ -1,7 +1,7 @@
 // ignore_for_file: collection_methods_unrelated_type
 
-import 'package:cabme_driver/model/ride_model.dart';
-import 'package:cabme_driver/model/tax_model.dart';
+import 'package:goshield_driver/model/ride_model.dart';
+import 'package:goshield_driver/model/tax_model.dart';
 
 class TruncationModel {
   String? success;
