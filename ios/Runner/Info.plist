@@ -85,7 +85,7 @@
 	<false/>
 
 	<key>NSLocationWhenInUseUsageDescription</key>
-    <string>Access to your location is required to track your booked cab and provide you with real-time updates on its location.</string>
+    <string>Access to your current location is necessary for real time updates of nearby available bookings.</string>
 
 </dict>
 </plist>

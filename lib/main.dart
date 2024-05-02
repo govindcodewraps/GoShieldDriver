@@ -40,8 +40,7 @@ void main() async {
 
 
   //comment when u build for android
-//for ios start
-  if (Platform.isIOS) {
+
   await FirebaseMessaging.instance.setForegroundNotificationPresentationOptions(
     alert: true,
     badge: true,
@@ -56,8 +55,7 @@ void main() async {
     provisional: false,
     sound: true,
   );
-  }
-  //for ios end
+
 
 
 

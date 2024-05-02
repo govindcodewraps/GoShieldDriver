@@ -32,57 +32,7 @@ class SettingsController extends GetxController {
     @override
     void onInit() {
       API.header['accesstoken'] = Preferences.getString(Preferences.accesstoken);
-      if (!Platform.isIOS) {
-        WidgetsBinding.instance!.addPostFrameCallback((_) {
-          showDialog(
-            context: Get.context!,
-            barrierDismissible: false, // Prevents closing by tapping outside
-            builder: (context) =>
-                AlertDialog(
-                  //title: Text('The term “location"'),
-                  content: Text(
-                    "Go Shield Driver collects location data when the app is active/in use and when it is not in use to ensure accurate Driver location detection for best results ",
-                  ),
-                  actions: [
-                    TextButton(
-                      onPressed: () {
-                        // Navigator.of(context).pop();
-                        // Navigator.of(context).pop();
-                        SystemNavigator.pop();
-                        },
-                      child: Text('Exit'),
-                    ),
-
-                    TextButton(
-                      onPressed: () {
-                        Navigator.of(context).pop();
-
-
-                        notificationServices.requestNotificationPermission();
-                        notificationServices.firebaseInit(context);
-                        notificationServices.setupInteractMessage(context);
-                        //notificationServices.isTokenRefresh();
-                        notificationServices.getDeviceToken().then((value) {
-                          print('device token');
-                          print(value);
-                        });
-
-                        //  PermissionStatusWidget();
-                        getSettingsData();
-                      },
-                      child: Text('Continue'),
-                    ),
-                  ],
-                ),
-          );
-        });
-      }
-
-
-      if(Platform.isIOS){
         getSettingsData();
-      }
-
       super.onInit();
     }
 
